@@ -165,21 +165,17 @@ a {
 }
 
 .card {
-    display: block;
-    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
+    z-index: 0;
+    color:#FFFFFF;
     max-width: 334px;
     min-height: 596px;
     text-decoration: none;
     background-position: center;
     background-size: cover;
-}
-
-.card article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
 }
 
 .card_title {
