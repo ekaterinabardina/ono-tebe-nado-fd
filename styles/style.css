@@ -178,6 +178,10 @@ a {
     background-size: cover;
 }
 
+.lots a {
+    text-decoration: none;
+}
+
 .card_title {
     font-size: 22px;
     font-weight: 700;
@@ -218,6 +222,7 @@ a {
     font-size: 20px;
     padding-left: 40px;
     padding-top: 30px;
+    text-decoration: underline;
 }
 
 .about {
